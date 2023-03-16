@@ -6,66 +6,69 @@
 body {
   display: flex;
   flex-direction: column;
-  gap: 44px;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin: 0 5vw;
 }
 
-.topsection {
-  background-color: #1f2937;
-  color: white;
-  word-wrap: break-word;
-  padding: 0 12vh 10vw 12vw;
+/* ----- */
+.top {
+  padding: 0 13vw 10em 12vw;
   justify-content: center;
-}
-
-.section1 {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-}
-
-.headersection {
-  color: white;
   background-color: #1f2937;
-}
-
-.mainheading {
-  flex-wrap: wrap;
+  color: #f9faf8;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5vw;
+  margin-bottom: 5em;
 }
 
 h2 {
   font-size: 24px;
-  color: #f9faf8;
   font-weight: 700;
 }
 
 .header-right {
   display: flex;
   gap: 10px;
-  filter: brightness(75%);
   align-items: center;
 }
 
 .header-right a {
-  color: white;
+  color: #e5e7eb;
   text-decoration: none;
   font-weight: 200;
 }
 
-.heromaintext {
-  flex-wrap: wrap;
-  font-size: 48px;
-  font-weight: bolder;
-  color: #f9faf8;
+.headline {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
 
+.mainheading {
+  align-self: center;
+}
+
+.heromaintext {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.underheadingtext {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.imagediv {
+  align-self: center;
+  width: 60em;
+  height: 14em;
+  background-color: aliceblue;
+}
+
+/* ----- */
 .infoheadertext {
   text-align: center;
   font-size: 36px;
@@ -73,15 +76,11 @@ h2 {
   color: #1f2937;
 }
 
-.imagediv {
-  width: 90%;
-  background-color: aliceblue;
-}
-
 .smallimagesection {
   display: flex;
   justify-content: center;
   gap: 50px;
+  color: #a2a3a4;
 }
 
 .smallimagesubsection {
@@ -99,61 +98,59 @@ h2 {
   width: 150px;
 }
 
+/* ----- */
 .quotesection {
-    padding: 5vw;
-    margin: 3vw 0;
-    padding-left: 17vw;
-    padding-right: 17vw;
-    background-color: #E5E7EB;
-    font-size: 36px;
-    color: #1F2937;
+  padding: 2em 17vw 2em 17vw;
+  margin: 3em 0;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
 }
 
 blockquote {
-    font-weight: lighter;
-    font-style: italic;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 .citation {
-    font-size: 26px;
-    font-weight: bolder;
-    text-align: right;
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: right;
 }
 
+/* ----- */
 .actionsection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10vw;
-    margin-left: 17vw;
-    margin-right: 17vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    border-radius: 10px;
-    color: white;
-    background-color: #3882F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+  margin: 5em 15vw;
+  padding: 1em 0;
+  border-radius: 10px;
+  color: white;
+  background-color: #3882f6;
 }
 
 .action-left {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .actionheading {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
 }
 
 .actiontext {
-    color: #E5E7EB;
-    font-size: 18px;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .button1 {
-    background-color: #3882F6;
-    border-radius: 10%;
-    border: none;
+  background-color: #3882f6;
+  border-radius: 10%;
+  border: none;
   color: white;
   padding: 10px 30px;
   text-align: center;
@@ -164,9 +161,9 @@ blockquote {
 }
 
 .button2 {
-    background-color: #3882F6;
-    border-radius: 10%;
-    border: 2px solid white;
+  background-color: #3882f6;
+  border-radius: 10%;
+  border: 2px solid white;
   color: white;
   padding: 8px 30px;
   text-align: center;
@@ -176,16 +173,11 @@ blockquote {
   font-weight: bold;
 }
 
+/* ----- */
 .footersection {
-    color: #E5E7EB;
-    font-size: 18px;
-    background-color: #1f2937ed;
-    text-align: center;
-    padding: 10px 0px;
-
-}
-
-.underheadingtext {
-    color: #E5E7EB;
-    font-size: 18px;
+  color: #e5e7eb;
+  font-size: 18px;
+  background-color: #1f2937ed;
+  text-align: center;
+  padding: 20px 0px;
 }
